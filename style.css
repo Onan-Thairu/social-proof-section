@@ -10,19 +10,19 @@ body {
 }
 .container{
   width: 100vw;
-  /* background-image: url("./images/bg-pattern-top-desktop.svg"); */
-  background-color: hsl(0, 0%, 100%);
+  height: 100vh;
 }
 .content {
   width: 80%;
   margin: auto;
+  background-image: url("./images/bg-pattern-top-desktop.svg");
 }
 .hero {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 6rem;
-  padding-bottom: 5rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 #hero-left-numbers {
   font-size: 50px;
@@ -64,45 +64,48 @@ body {
   margin-left: 6rem;
   margin-right: 0rem;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.testimonials {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+.testimonial-card {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.testimonial-card img {
+  width: 2.5rem;
+  border-radius: 50%;
+}
+.testimonial-card-header {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-bottom: 1.5rem;
+}
+.name {
+  color: hsl(0, 0%, 100%);
+  font-weight: 500;
+  margin-bottom: .3rem;
+}
+.verified-buyer {
+  color: hsl(333, 80%, 67%);
+}
+.testimony {
+  color: hsl(0, 0%, 100%);
+  line-height: 1.3rem;
+}
+.testimonial-card-two {
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+}
+.testimonial-card-three {
+  margin-top: 2.2rem;
+}
+.testimonial-card-one {
+  margin-bottom: 2.2rem;
+}
 .attribution {
   font-size: 11px;
   text-align: center;
