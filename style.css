@@ -175,4 +175,10 @@ body {
   .testimonial-card-one {
     margin-bottom: 0rem;
   }
+  .testimonial-card-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
 }
