@@ -160,7 +160,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
   }
   .testimonial-card-two {
     margin-top: 0rem;
